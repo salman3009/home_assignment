@@ -102,7 +102,7 @@ const FlowChart:React.FC = () => {
       <Container>
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
-            <Grid size={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <Card sx={{ minWidth: 275 }}>
                 <CardContent>
                   <Grid container spacing={2}>
@@ -175,7 +175,7 @@ const FlowChart:React.FC = () => {
                 </CardContent>
               </Card>
             </Grid>
-            <Grid size={8}>
+            <Grid size={{ xs: 12, md: 8 }}>
               {spinner && displayList.length > 0 && (
                 <Box display="flex"
                 justifyContent="center"
